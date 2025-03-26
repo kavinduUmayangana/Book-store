@@ -8,11 +8,11 @@ $conn = new PDO("mysql:host=$host;dbname=$dbname", $user, $pass);
 // set the PDO error mode to exception
 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-if($conn){
-    echo "db connected successfully";
-}else{
-    echo "error in db connection";
-}
+// if($conn){
+//     echo "db connected successfully";
+// }else{
+//     echo "error in db connection";
+// }
 
 
 /*So, if you have to switch your project to use another database,
